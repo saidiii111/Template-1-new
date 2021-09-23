@@ -10,6 +10,59 @@
 
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  height: 20%;
+  background-color:;
+  margin: auto;
+}
+
 body {
   font-family: "Varela Round", sans-serif;
 }
+
+.clear {
+  clear: both;
+}
+
+.header .logo {
+  width: 40%;
+  background-color;
+  float: left;
+}
+
+
+.header-content {
+  overflow: hidden; /* other way to solve the float problem */
+}
+
+.header .logo {
+    width: 40%;
+    float: left;
+
+}
+
+.header .nav {
+    width: 60%;
+    background: gray;
+    list-style: none;
+    float: left;
+  }
+  
+  .header .nav li {
+       display: inline-block;
+  }
+
+  .header .nav li a {
+      color: wheat;
+      text-decoration: none;
+      display: block;
+      padding: 30px 15px;
+  }
