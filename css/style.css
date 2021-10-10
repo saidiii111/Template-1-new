@@ -81,6 +81,28 @@ button {
   font-family: "Varela Round" sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header .section-title {
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.section-header .line {
+  display: block;
+  height: 5px;
+  width: 60px;
+  margin: 0 auto 70px;
+  background-color: #6195ff;
+}
+
 /* 3- Sections Styles */
 /* 3    .0 Header Section */
 
