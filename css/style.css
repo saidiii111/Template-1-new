@@ -37,6 +37,7 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);
+  
 }
 
 .hover-opacity {
@@ -47,6 +48,27 @@
   opacity: 0.8;
 }
 
+.ltr-effect {
+  position: relative;
+}
+
+.ltr-effect:after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  background: #333;
+  direction: ltr;
+  z-index: -1;
+  transition: width 0.5s;
+}
+
+.ltr-effect:hover:after {
+  width: 100%;
+  
+}
 /* 2- General CSS Styles */
 * {
   margin: 0;
@@ -83,6 +105,10 @@ button {
 
 a {
   text-decoration: none;
+}
+
+.pd-y {
+  padding: 120px 0;
 }
 
 .section-header {
@@ -199,6 +225,52 @@ a {
 }
 
 /* About Section */
+.about {
+}
+
+.about-content {
+  overflow: hidden;
+}
+
+.about-item {
+  width: 30%;
+  float: left;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  padding: 50px 20px;
+}
+
+.about-item:hover .about-item-title {
+  color: #fff;
+}
+
+.about-item.mg {
+  margin: 0 5%;
+}
+
+.about-item .icon {
+  color: #001599;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+.about-item-title {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  transition: color 0.5s;
+}
+
+.about-item-desc {
+  color: #999;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.about-item-link {
+  color: #1d0ea5;
+  text-transform: capitalize;
+}
+
 /* Portfolio Section */
 /* Service Section */
 /* Prices Section */
