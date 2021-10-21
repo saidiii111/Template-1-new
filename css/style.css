@@ -60,12 +60,15 @@
   left: 0;
   background-color: #333;
   z-index: -1;
-  transition: width 0.5s;
+  transition: width 0.5s ease;
+  
 }
 
 .ltr-effect:hover:after {
   width: 100%;
  background-color: #3098b3;
+ background-position: left;
+ background: linear-gradient(to left, salmon 50%, brown 50%) right;
 }
 /* 2- General CSS Styles */
 * {
@@ -247,7 +250,7 @@ a {
 }
 
 .about-item .icon {
-  color: #001599;
+  color: #192049;
   margin-top: 5px;
   padding-bottom: 5px;
 }
@@ -266,7 +269,7 @@ a {
 
 
 .about-item-link {
-  color: #1d0ea5;
+  color: #177;
   text-transform: capitalize;
 }
 
