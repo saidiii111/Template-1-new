@@ -62,12 +62,11 @@
   background-color: #333;
   z-index: -1;
   transition: width 0.9s ease;
-  
 }
 
 .ltr-effect:hover:after {
   width: 200%;
- background: linear-gradient(to left, salmon 50%, brown 50%) right;
+  background: linear-gradient(to left, salmon 50%, brown 50%) right;
 }
 /* 2- General CSS Styles */
 * {
@@ -266,13 +265,34 @@ a {
   margin-bottom: 10px;
 }
 
-
 .about-item-link {
   color: #177;
   text-transform: capitalize;
 }
 
 /* Portfolio Section */
+.portfolio {
+  background: #f9f9f9;
+}
+
+.portfolio-content {
+  overflow: hidden;
+}
+
+.portfolio-item {
+  width: 30%;
+  float: left;
+  margin-bottom: 60px;
+}
+
+.portfolio-item.mg {
+  margin: 0 5%;
+}
+
+.portfolio-item img {
+  width: 100%;
+}
+
 /* Service Section */
 /* Prices Section */
 /* Team Section */
