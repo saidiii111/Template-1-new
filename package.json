@@ -1,0 +1,26 @@
+{
+  "name": "HTML-CSS-Template1",
+  "version": "1.0.0",
+  "description": "موقع html و css فقط Build a complete web side with just Html and CSS .",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html "
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidiii111/Template-1-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saidiii111/Template-1-new/issues"
+  },
+  "homepage": "https://github.com/saidiii111/Template-1-new#readme"
+}
