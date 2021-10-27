@@ -321,13 +321,13 @@ a {
   top: 10px;
   position: relative;
   transition: top 0.5s;
-  transition-delay: 0;
+  transition-delay: .5s;
 }
 
 .layer-content-title {
   font-size: 20px;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   top: 10px;
   position: relative;
   transition: top 0.5s;
@@ -342,7 +342,7 @@ a {
   position: relative;
   background-color: #6195ff;
   transition: top 0.5s;
-  transition-delay: 1s;
+  transition-delay: .5s;
 }
 
 .layer-content a i {
