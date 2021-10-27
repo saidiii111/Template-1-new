@@ -294,6 +294,14 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+
+.portfolio-item:hover .layer-content {
+  opacity: 1;
+  visibility: visible;
 }
 
 .layer-content .layer-info {
@@ -309,25 +317,44 @@ a {
   color: #6195ff;
   text-transform: uppercase;
   display: block;
-  margin-bottom: 5%;
+  margin-bottom: 5px;
+  top: 10px;
+  position: relative;
+  transition: top 0.5s;
+  transition-delay: 0;
 }
 
 .layer-content-title {
   font-size: 20px;
   color: #fff;
   margin-bottom: 10px;
+  top: 10px;
+  position: relative;
+  transition: top 0.5s;
+  transition-delay: 0.5s;
 }
 
 .layer-content a {
   display: inline-block;
   width: 40px;
   height: 40px;
-
+  top: 10px;
+  position: relative;
   background-color: #6195ff;
+  transition: top 0.5s;
+  transition-delay: 1s;
 }
 
 .layer-content a i {
   line-height: 40px;
+}
+
+.portfolio-item:hover .about-content-title,
+.portfolio-item:hover .layer-content a,
+.portfolio-item:hover .layer-content .category {
+  top: 0;
+  opacity: 1;
+  visibility: visible;
 }
 
 .portfolio-item.mg {
