@@ -66,7 +66,8 @@
 
 .ltr-effect:hover:after {
   width: 200%;
-  background: linear-gradient(to left, salmon 50%, brown 50%) right;
+  background: linear-gradient(to left, rgba(47, 62, 195, 0.349) 50%, #6195ff)
+    right;
 }
 /* 2- General CSS Styles */
 * {
@@ -321,7 +322,7 @@ a {
   top: 10px;
   position: relative;
   transition: top 0.5s;
-  transition-delay: .5s;
+  transition-delay: 0.5s;
 }
 
 .layer-content-title {
@@ -342,7 +343,7 @@ a {
   position: relative;
   background-color: #6195ff;
   transition: top 0.5s;
-  transition-delay: .5s;
+  transition-delay: 0.5s;
 }
 
 .layer-content a i {
@@ -365,9 +366,24 @@ a {
   width: 100%;
 }
 
-/* Service Section */
+/* Offer Section */
+.offer {
+  margin-top: 15em;
+}
+
+.offer-content {
+  overflow: hidden;
+}
+
+.offer-item {
+  width: 30%;
+  float: left;
+}
+
+
 /* Prices Section */
 /* Team Section */
 /* Blog Section */
 /* Contact Section */
 /* About Section */
+
