@@ -59,7 +59,7 @@
   right: 0%;
   bottom: 0%;
   left: 0;
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.733);
   z-index: -1;
   transition: width 0.9s ease;
 }
@@ -410,6 +410,15 @@ a {
 .offer-item:hover .offer-item-title {
   color: #e8e8e8;
 }
+
+/* Service Section */
+.service {
+  margin-top: 8em;
+}
+
+
+
+
 
 /* Prices Section */
 /* Team Section */
