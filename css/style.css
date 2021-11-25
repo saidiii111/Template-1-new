@@ -437,6 +437,23 @@ a {
   font-size: 18px;
 }
 
+.service-list {
+  list-style: none;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.service-list li i {
+  color: 1px solid #6195ff;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 50%;
+}
+
 /* Prices Section */
 /* Team Section */
 /* Blog Section */
