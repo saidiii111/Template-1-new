@@ -86,9 +86,9 @@ body {
   font-family: "Varela Round", sans-serif;
 }
 
-/* .clear {
+.clear {
   clear: both;
-} */
+}
 
 h1,
 h2,
@@ -413,12 +413,29 @@ a {
 
 /* Service Section */
 .service {
-  margin-top: 8em;
+  margin-top: 15em;
+  background-color: #f9f9f9;
 }
 
+.service-item {
+  width: 50%;
+  float: left;
+}
 
+.service-item .section-header {
+  text-align: center;
+}
 
+.service-item .section-header .line {
+  margin: 0 0 40px 0;
+}
 
+.service-item-desc {
+  padding-right: 20px;
+  color: #999;
+  line-height: 1.4;
+  font-size: 18px;
+}
 
 /* Prices Section */
 /* Team Section */
