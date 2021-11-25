@@ -54,7 +54,7 @@
 .ltr-effect:after {
   position: absolute;
   content: "";
-  width: 20%;
+  width: 0%;
   top: 0%;
   right: 0%;
   bottom: 0%;
@@ -237,7 +237,7 @@ a {
   float: left;
   text-align: center;
   border: 1px solid #e8e8e8;
-  padding: 50px 20px;
+  padding: auto 20px;
 }
 
 .about-item:hover .about-item-title {
@@ -423,17 +423,17 @@ a {
 }
 
 .service-item .section-header {
-  text-align: center;
+  text-align: left;
 }
 
 .service-item .section-header .line {
-  margin: 0 0 40px 0;
+  margin: 0 0 30px 0;
 }
 
 .service-item-desc {
   padding-right: 20px;
   color: #999;
-  line-height: 1.4;
+  line-height: 1.5;
   font-size: 18px;
 }
 
@@ -447,11 +447,38 @@ a {
 }
 
 .service-list li i {
-  color: 1px solid #6195ff;
+  border: 1px solid #6195ff;
+  color: #6195ff;
   width: 30px;
   height: 30px;
   padding: 7px;
   border-radius: 50%;
+}
+
+.service-item-img img {
+  width: 100%;
+}
+
+.service-bollets {
+  list-style: none;
+  text-align: center;
+}
+
+.service-bollets li {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #e8e8e8;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+
+.service-bollets li.active {
+  background-color: #6195ff;
+}
+
+.service-bollets li:hover {
+  background-color: #6195ff;
 }
 
 /* Prices Section */
