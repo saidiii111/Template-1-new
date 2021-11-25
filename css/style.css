@@ -178,7 +178,7 @@ a {
 
 .home {
   height: 100vh;
-  background-image: url(../images/background/background1.webp);
+  background-image: url(../images/background/personal.webp);
   background-size: cover; /* css3 */
   position: relative;
 }
