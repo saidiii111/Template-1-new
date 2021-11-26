@@ -521,6 +521,73 @@ a {
 .number-item-text {
   color: #fff;
 }
+
+/*  Pricing Section   */
+.pricing {
+}
+
+.pricing-plans {
+  overflow: hidden;
+}
+
+.pricing-item {
+  width: 30%;
+  float: left;
+  padding: 20px 15px;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+}
+
+.pricing-item-text {
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #999;
+}
+
+.pricing-item.mg {
+  margin: 0 5%;
+}
+
+.pricing-item-permonth {
+  color: #000;
+  width: 130px;
+  height: 130px;
+  padding: 25px 0;
+  margin: 20px auto;
+  border: 2px solid #6195ff;
+  border-radius: 50%;
+}
+
+.pricing-item-permonth .dollar {
+  font-size: 46px;
+}
+
+.pricing-item-permonth .month {
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.pricing-list {
+  list-style: none;
+}
+
+.pricing-list li {
+  color: #999;
+  line-height: 1.5;
+}
+
+.pricing-item-purchase {
+  background: none;
+  border: 0;
+  display: block;
+  width: 140px;
+  padding: 10px;
+  margin: 15px auto 0 auto;
+  border: 2px solid #7ba7ff;
+  color: #7ba7ff;
+}
+
 /* Team Section */
 /* Blog Section */
 /* Contact Section */
