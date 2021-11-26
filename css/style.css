@@ -456,7 +456,7 @@ a {
 
 .service-item-img img {
   width: 100%;
-  margin-top: 12em;
+  margin-top: 7em;
 }
 
 .service-bollets {
@@ -484,17 +484,20 @@ a {
 /* Numbers Section */
 
 .num-sec {
-  margin-top: 17em;
+  margin-top: 15em;
 }
 
 .numbers {
   position: relative;
   background-image: url(../images/background/background2.webp);
+  background-size: cover;
+  background-attachment: fixed;
   height: 300px;
 }
 
 .numbers-items {
   overflow: hidden;
+  padding: 100px 0;
 }
 
 .number-item {
@@ -512,9 +515,12 @@ a {
   font-weight: bold;
   font-size: 30px;
   color: #fff;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.2em;
 }
 
+.number-item-text {
+  color: #fff;
+}
 /* Team Section */
 /* Blog Section */
 /* Contact Section */
