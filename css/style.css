@@ -442,7 +442,6 @@ a {
 }
 
 .service-list li {
-  margin-bottom: 6rem;
   color: #999;
 }
 
@@ -484,10 +483,12 @@ a {
 /* Numbers Section */
 
 .numbers {
-  margin-top: 50px;
   position: relative;
   background-image: url(../images/background/background2.webp);
-  height: 300px;
+}
+
+.num-sec {
+  margin-top: 23em;
 }
 
 /* Team Section */
