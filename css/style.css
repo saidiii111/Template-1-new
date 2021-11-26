@@ -442,7 +442,7 @@ a {
 }
 
 .service-list li {
-  margin-bottom: 10px;
+  margin-bottom: 6rem;
   color: #999;
 }
 
@@ -469,7 +469,7 @@ a {
   height: 10px;
   display: inline-block;
   background-color: #e8e8e8;
-  margin: 10px 5px;
+  margin: 20px 5px;
   border-radius: 50%;
 }
 
@@ -481,7 +481,15 @@ a {
   background-color: #6195ff;
 }
 
-/* Prices Section */
+/* Numbers Section */
+
+.numbers {
+  margin-top: 50px;
+  position: relative;
+  background-image: url(../images/background/background2.webp);
+  height: 300px;
+}
+
 /* Team Section */
 /* Blog Section */
 /* Contact Section */
