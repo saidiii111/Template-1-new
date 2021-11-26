@@ -456,6 +456,7 @@ a {
 
 .service-item-img img {
   width: 100%;
+  margin-top: 12em;
 }
 
 .service-bollets {
@@ -482,13 +483,36 @@ a {
 
 /* Numbers Section */
 
+.num-sec {
+  margin-top: 17em;
+}
+
 .numbers {
   position: relative;
   background-image: url(../images/background/background2.webp);
+  height: 300px;
 }
 
-.num-sec {
-  margin-top: 23em;
+.numbers-items {
+  overflow: hidden;
+}
+
+.number-item {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.number-item .icon {
+  color: #6195ff;
+  margin-bottom: 0.5em;
+}
+
+.number-item-title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 0.4em;
 }
 
 /* Team Section */
