@@ -691,6 +691,7 @@ ul#navv .active {
 
 /* Team Section */
 .team {
+  margin-bottom: 13em;
 }
 
 .team-content {
@@ -703,6 +704,10 @@ ul#navv .active {
   background: #e8e8e8;
   padding: 40px 10px;
   text-align: center;
+}
+
+.team-item.img {
+  margin: 0 5%;
 }
 
 .team-item .team-img {
@@ -718,6 +723,7 @@ ul#navv .active {
 .team-item .team-info-title {
   color: #222;
   margin: 10px 0;
+  transition: color 0.5s;
 }
 
 .team-overlay {
@@ -757,7 +763,17 @@ ul#navv .active {
 
 .team-item.tb-effect:after {
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.5;
+}
+
+.team-item:hover .team-info-title {
+  color: #966;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.team-item:hover .team-info-text {
+  color: #6195ff;
 }
 
 /* Blog Section */
