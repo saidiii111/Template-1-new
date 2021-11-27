@@ -180,7 +180,6 @@ a {
 }
 
 .header .nav li a {
-  background-color: #999;
   font-weight: bold;
   font-size: 15px;
   color: #966;
@@ -629,6 +628,52 @@ a {
 .pricing-item:hover .pricing-item-text {
   color: #6195ff;
   font-weight: bold;
+}
+
+/*  Testimonial Section  */
+.testimonial {
+  position: relative;
+  background-image: url(../images/background/background3.webp);
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.testimonial-content {
+  overflow: hidden;
+  padding: 120px 30;
+  width: 100%;
+  margin: auto;
+}
+
+.testimonial-item {
+  width: 50%;
+  float: left;
+  color: #fff;
+}
+
+.testimonial-item .testimonial-toplayer {
+  padding: 10px 2px 40px 100px;
+  position: relative;
+}
+
+.testimonial-item .testimonial-toplayer img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 50%;
+}
+
+.testimonial-item .testimonial-toplayer h3 {
+  margin: 5px 0;
+}
+
+.testimonial-item .testimonial-toplayer span {
+  color: #7ba7ff;
+}
+
+.testimonial-desc {
+  line-height: 1.5;
+  font-size: 17px;
 }
 
 /* Team Section */
