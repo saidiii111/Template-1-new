@@ -121,7 +121,7 @@ a {
 }
 
 .pd-y {
-  padding: 120px 0;
+  padding: 150px 0;
 }
 
 .section-header {
@@ -182,11 +182,20 @@ a {
 .header .nav li a {
   font-weight: bold;
   font-size: 15px;
-  color: white;
+  color: #ade77d;
+  opacity: 0.9;
   text-decoration: none;
   display: block;
   padding: 20px 15px;
 }
+/*  
+.header .nav li a > .active > a {
+  color: aqua;
+  background-color: chartreuse;
+}
+.nav > a:hover {
+  color: aqua;
+}  */
 
 /* Home Section */
 
@@ -547,8 +556,6 @@ a {
 }
 
 /*  Pricing Section   */
-.pricing {
-}
 
 .pricing-plans {
   overflow: hidden;
