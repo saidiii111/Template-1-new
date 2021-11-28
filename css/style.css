@@ -97,6 +97,7 @@
 
 body {
   font-family: "Varela Round", sans-serif;
+  background: rgba(0, 0, 0, .7);
 }
 
 .clear {
@@ -183,6 +184,8 @@ a {
   list-style: none;
   float: left;
   text-align: right;
+  background: rgba(0, 0, 0, .3);
+  border-radius: 9%;
 }
 
 .header .nav li {
@@ -194,7 +197,7 @@ a {
 .header .nav li a {
   font-weight: bold;
   font-size: 15px;
-  color: #966;
+  color: #f8f8f8;
   opacity: 0.9;
   text-decoration: none;
   display: block;
@@ -202,12 +205,9 @@ a {
 }
 
 ul#navv .active {
-  border-color: white;
-  border-left-color: black;
-  border-top-color: black;
-  color: white;
-  background-color: #adadad;
-  border-radius: 50%;
+ text-decoration-style: double;
+  color: #6195ff
+
 }
 
 /* Home Section */
@@ -830,6 +830,45 @@ ul#navv .active {
 
 .blog-link {
   color: #6195ff;
+}
+
+/* Contact Section  */
+
+/*  Footer Section*/
+.footer {
+  background: #1c1d21;
+  text-align: center;
+  margin: 222px 0 22px 0;
+  height: 40%;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  display: inline-block;
+  
+}
+
+.footer-links li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #6195ff;
+  color: #fff;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.footer-links li a i {
+  line-height: 50px;
+}
+
+.footer .copyright {
+  color: #999;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 /* Blog Section */
