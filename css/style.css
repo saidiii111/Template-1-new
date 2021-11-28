@@ -776,6 +776,24 @@ ul#navv .active {
   color: #6195ff;
 }
 
+/* Blog Page */
+.blog {
+  background: #f8f8f8;
+}
+
+.blog-content {
+  overflow: hidden;
+}
+
+.blog-item {
+  width: 30%;
+  float: left;
+}
+
+.blog-item-img img {
+  width: 100%;
+}
+
 /* Blog Section */
 /* Contact Section */
 /* About Section */
