@@ -175,7 +175,7 @@ a {
   margin-top: 20px;
 }
 
-.develop { 
+.develop {
   -webkit-animation: mymove 10s infinite;
 }
 
@@ -206,8 +206,7 @@ a {
   padding: 20px 10px;
 }
 
-.header .nav > li > a.active:after,
-.header .nav > li > a:after {
+.header .nav > li > a.active:after {
   content: "";
   display: block;
   height: 3px;
@@ -445,6 +444,10 @@ a {
 }
 
 /* Offer Section */
+.offer {
+  margin-bottom: 0;
+}
+
 .offer-content {
   overflow: hidden;
 }
@@ -472,13 +475,14 @@ a {
 .offer-item-title {
   text-transform: capitalize;
   margin-bottom: 15px;
+  margin-top: 0;
   transition: color 0.5s;
 }
 
 .offer-item-desc {
   text-transform: capitalize;
   margin-bottom: 15px;
-  line-height: 1, 6;
+  line-height: 1,6;
 }
 
 .offer-item:hover .offer-item-title {
@@ -492,7 +496,6 @@ a {
 
 /* Service Section */
 .service {
-  margin-top: 15em;
   background-color: var(--bg-gray);
 }
 
