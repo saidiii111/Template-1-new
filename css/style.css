@@ -30,8 +30,8 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 1;
+  background-color: #000;
+  z-index: -1;
 }
 
 .hover-opacity {
@@ -98,7 +98,7 @@
 
 body {
   font-family: "Varela Round", sans-serif;
-  background: rgba(0, 0, 0, 0.7);
+  background: #000
   z-index: 1;
 }
 
@@ -140,6 +140,7 @@ a {
   font-size: 35px;
   text-transform: capitalize;
   margin-bottom: 10px;
+  color: #fff
 }
 
 .section-header .line {
@@ -154,10 +155,10 @@ a {
 /* 3    .0 Header Section */
 
 .header {
-  position: fixed;
+  position: static;
   width: 100%;
   z-index: 10;
-  background: rgba(0, 0, 0, 0.5);
+  background: #000;
 }
 
 /* other way to solve the float problem which let the parent dont feel in children and cause proplems for next elements*/
@@ -255,16 +256,13 @@ a {
 /* Home Section */
 
 .home {
-  height: 100vh;
-  background-image: url(../images/background/personal.webp);
-  background-size: cover; /* css3 */
   position: relative;
 }
 
 .home-content {
   position: absolute;
   width: 65%;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -273,7 +271,6 @@ a {
 .home .title {
   color: rgb(238, 236, 231);
   font-size: 2.5rem;
-  text-transform: uppercase;
 }
 
 .home-desc {
@@ -302,9 +299,10 @@ a {
   color: var(--whiteColor);
 }
 
-/* About Section 
+/* About Section */ 
 .about {
-}*/
+  background: rgba(0, 0, 0, 0.6);
+}
 
 .about-content {
   overflow: hidden;
@@ -355,6 +353,11 @@ a {
 }
 
 /* Portfolio Section */
+.portfolio {
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
 .portfolio-content {
   overflow: hidden;
 }
@@ -448,6 +451,7 @@ a {
 /* Offer Section */
 .offer {
   margin-bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .offer-content {
@@ -498,7 +502,8 @@ a {
 
 /* Service Section */
 .service {
-  background-color: var(--bg-gray);
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 
 .service-item {
@@ -851,7 +856,6 @@ a {
   margin: 20px 0;
 }
 
-
 .blog-desc {
   color: var(--grayColor);
   margin-bottom: 10px;
@@ -864,7 +868,13 @@ a {
 }
 
 /* Contact Section  */
+.getintouch {
+  background: #000;
+  z-index: -1;
+}
+
 .getintouch-items {
+  background: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   margin-bottom: 20px;
 }
@@ -894,7 +904,7 @@ a {
 
 .contact form {
   width: 60%;
-  margin: 30px auto;
+  margin:  auto;
 }
 
 .contact form input,
@@ -935,16 +945,21 @@ a {
   font-family: inherit;
 }
 
-/* Footer Section */
+/* Footer */
+.footerr {
+  background-image: url(../images/background/personal.webp);
+  background-size: cover;
+}
+
 .footer {
-  background: #1c1d21;
   text-align: center;
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .footer-links {
   list-style: none;
-  margin: 20px 0;
+  margin-top: 18em;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .footer-links li {
@@ -969,6 +984,7 @@ a {
   color: #999;
   font-size: 15px;
   text-transform: uppercase;
+  padding-left: 17em;
 }
 
 .polling_message {
