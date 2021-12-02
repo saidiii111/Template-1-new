@@ -30,7 +30,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #000;
+  background-color: #009;
   z-index: -1;
 }
 
@@ -55,7 +55,7 @@
   right: 0%;
   bottom: 0%;
   left: 0;
-  background-color: #000;
+  background-color: #005;
   z-index: -1;
 }
 
@@ -98,8 +98,7 @@
 
 body {
   font-family: "Varela Round", sans-serif;
-  background: #000;
-  z-index: 1;
+  background: #009;
 }
 
 .clear {
@@ -300,8 +299,8 @@ a {
 }
 
 /* About Section */
+
 .about {
-  background: rgba(0, 0, 0, 0.9);
 }
 
 .about-content {
@@ -869,8 +868,6 @@ a {
 
 /* Contact Section  */
 .getintouch {
-  background: #000;
-  z-index: -1;
 }
 
 .getintouch-items {
@@ -959,7 +956,6 @@ a {
 .footer-links {
   list-style: none;
   margin-top: 18em;
-  background: rgba(0, 0, 0, 0.9);
 }
 
 .footer-links li {
