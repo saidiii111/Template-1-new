@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -24,9 +26,10 @@
                 <div class="logo">
                     <i class="fa fa-5x fa-code develop" aria-hidden="true"></i>
                 </div>
-                <ul id="navv" class="nav">
+
+                <ul id="navv" class="nav topnav">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about" class="active">About</A></li>
+                    <li><a href="#about" class="active">About</a></li>
                     <li><a href="#about">Resume</a></li>
                     <li><a href="#Testimonials">Testimonials</a></li>
                     <!-- <li class="dropdown">
@@ -37,6 +40,9 @@
                 </li> -->
                     <li><a href="#contact">sayHello:)</a></li>
                     <li><a href="#"> بالعربي</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a></li>
                 </ul>
             </div> <!--  ./header-content -->
         </div> <!--  ./container -->
@@ -46,9 +52,10 @@
     <section id="home" class="Home pd-y">
         <div class="overlay">
             <div class="home-content">
-                <h5 class="title">I'm Said Saghir<br>frontEnd Developer;</h5>
-                <p class="home-desc">i have basic knowledge of<br>html, css, Javascript, es6 and react.js <br>i'm
-                    looking for remotly work, Let's start scrolling and learn more about me:)</p>
+                <h5 class="title">I'm Said Saghir<br>frontEnd Web Developer;</h5>
+                <p class="home-desc">i have basic knowledge of<br> <strong> html, css, Javascript, es6 and
+                        react.js</strong> <br>i'm
+                    looking for <mark>remotly work</mark> <br> Let's start scrolling and learn more about me:)</p>
                 <!-- <button class="btn btn-start hover-opacity">Get Started !</button>
                 <button class="btn btn-learn hover-opacity">Learn More !</button> -->
             </div> <!-- ./home-content -->
@@ -108,7 +115,7 @@
 
     <!-- Portfolio Section -->
     <div class="portfolio">
-        <div class="section-header mg-b-20">
+        <div class="section-header">
             <h2 class="section-title">featured works</h2>
             <span class="line"></span>
         </div>
