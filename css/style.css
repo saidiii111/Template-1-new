@@ -98,7 +98,7 @@
 
 body {
   font-family: "Varela Round", sans-serif;
-  background: #000
+  background: #000;
   z-index: 1;
 }
 
@@ -140,7 +140,7 @@ a {
   font-size: 35px;
   text-transform: capitalize;
   margin-bottom: 10px;
-  color: #fff
+  color: #fff;
 }
 
 .section-header .line {
@@ -299,9 +299,9 @@ a {
   color: var(--whiteColor);
 }
 
-/* About Section */ 
+/* About Section */
 .about {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .about-content {
@@ -904,7 +904,7 @@ a {
 
 .contact form {
   width: 60%;
-  margin:  auto;
+  margin: auto;
 }
 
 .contact form input,
