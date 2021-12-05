@@ -95,6 +95,8 @@
 .container {
   width: 80%;
   margin: auto;
+  display: flex;
+  flex-flow: row, wrap;
 }
 
 body {
@@ -102,7 +104,7 @@ body {
   box-sizing: border-box;
   background-image: linear-gradient(
     to top left,
-    rgba(235, 126, 2, 1),
+    rgb(95, 53, 6),
     rgba(235, 126, 2, 0.5)
   );
 }
@@ -259,6 +261,8 @@ a {
   list-style: none;
   float: left;
   text-align: right;
+  display: flex;
+  flex-flow: row, wrap;
 }
 
 .header .nav li {
@@ -272,7 +276,7 @@ a {
   color: var(--whiteColor);
   text-decoration: none;
   display: block;
-  padding: 20px 10px;
+  padding: 15px 10px;
 }
 
 .header .nav > li > a.active:after {
@@ -323,24 +327,26 @@ a {
 
 .home {
   position: relative;
+  background-image: url(../images/background/natur.jpg.jpeg);
+  background-size: cover;
+  height: 100%;
+  z-index: -1;
 }
 
 .home-content {
   position: absolute;
-  width: 65%;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  top: 12%;
+  left: 5%;
 }
 
 .home .title {
-  color: rgb(238, 236, 231);
-  font-size: 2.5rem;
+  color: rgb(3, 0, 22);
+  font-size: 22px;
+  border-radius: 11%;
 }
 
 .home-desc {
-  margin: 20px 0;
+  margin: 20px auto;
   color: var(--whiteColor);
   letter-spacing: 2px;
   line-height: 1.5;
@@ -928,7 +934,7 @@ a {
 }
 
 .getintouch-items .item {
-  width: 30%;
+  width: 35%;
   float: left;
   text-align: center;
 }
@@ -998,16 +1004,21 @@ a {
   background-image: url(../images/background/personal.webp);
   background-size: cover;
   opacity: 0.9;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .footer {
   text-align: center;
   padding: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .footer-links {
   list-style: none;
   margin-top: 12em;
+  flex: 1, 0, 90px;
 }
 
 .footer-links li {
@@ -1032,8 +1043,8 @@ a {
   color: #127fbe;
   font-size: 15px;
   text-transform: capitalize;
-  padding-left: 17em;
   padding-top: 3px;
+  flex: 1, 0, 40px;
 }
 
 .polling_message {
