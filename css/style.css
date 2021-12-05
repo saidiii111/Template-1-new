@@ -103,9 +103,9 @@ body {
   font-family: "Varela Round", sans-serif;
   box-sizing: border-box;
   background-image: linear-gradient(
-    to top left,
-    rgb(95, 53, 6),
-    rgba(235, 126, 2, 0.5)
+    to bottom left,
+    rgba(89, 180, 36, 1),
+    rgb(99, 25, 160)
   );
 }
 
