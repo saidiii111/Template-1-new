@@ -86,7 +86,7 @@
 }
 
 :root {
-  --mainColor: #6195ff;
+  --mainColor: rgb(29, 8, 39);
   --grayColor: #999;
   --bg-gray: #f9f9f9;
   --whiteColor: #fff;
@@ -140,13 +140,12 @@ a {
 
 .section-header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .section-header .section-title {
   font-size: 35px;
   text-transform: capitalize;
-  margin-bottom: 10px;
   color: #fff;
 }
 
@@ -154,7 +153,7 @@ a {
   display: block;
   height: 5px;
   width: 60px;
-  margin: 0 auto 70px auto;
+  margin: 4px auto 70px auto;
   background-color: var(--mainColor);
 }
 
@@ -164,8 +163,7 @@ a {
 .header {
   position: static;
   width: 100%;
-  z-index: 10;
-  background: #001;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 /* Add a black background color to the top navigation */
@@ -175,7 +173,6 @@ a {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -186,13 +183,13 @@ a {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #005;
+  background-color: rgb(135, 19, 202);
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: var(--mainColor);
+  background-color: #060;
   color: white;
 }
 
