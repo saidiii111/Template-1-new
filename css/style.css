@@ -86,7 +86,7 @@
 }
 
 :root {
-  --mainColor: rgb(29, 8, 39);
+  --mainColor: rgba(8, 34, 54, 0.993);
   --grayColor: #999;
   --bg-gray: #f9f9f9;
   --whiteColor: #fff;
@@ -103,9 +103,9 @@ body {
   font-family: "Varela Round", sans-serif;
   box-sizing: border-box;
   background-image: linear-gradient(
-    to bottom left,
-    rgba(89, 180, 36, 1),
-    rgb(99, 25, 160)
+    to top right,
+    rgb(11, 81, 244, 1),
+    rgb(11, 81, 244, 0.3)
   );
 }
 
@@ -140,7 +140,7 @@ a {
 
 .section-header {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .section-header .section-title {
@@ -163,7 +163,7 @@ a {
 .header {
   position: static;
   width: 100%;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.842);
 }
 
 /* Add a black background color to the top navigation */
@@ -183,13 +183,14 @@ a {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(135, 19, 202);
+  background-color: rgb(192, 107, 10);
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #060;
+  background-color: rgb(11, 81, 122);
+  border-radius: 9%;
   color: white;
 }
 
@@ -240,7 +241,7 @@ a {
   width: 30%;
   color: var(--mainColor);
   opacity: 0.3;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .develop {
@@ -256,7 +257,6 @@ a {
 .header .nav {
   width: 70%;
   list-style: none;
-  float: left;
   text-align: right;
   display: flex;
   flex-flow: row, wrap;
@@ -273,7 +273,7 @@ a {
   color: var(--whiteColor);
   text-decoration: none;
   display: block;
-  padding: 15px 10px;
+  padding: 10px auto;
 }
 
 .header .nav > li > a.active:after {
@@ -324,7 +324,7 @@ a {
 
 .home {
   position: relative;
-  background-image: url(../images/background/natur.jpg.jpeg);
+  /*background-image: url(../images/background/natur.jpg.jpeg);*/
   background-size: cover;
   height: 100%;
   z-index: -1;
@@ -1000,7 +1000,7 @@ a {
 .footerr {
   background-image: url(../images/background/personal.webp);
   background-size: cover;
-  opacity: 0.9;
+  opacity: 1;
   display: flex;
   flex-flow: row wrap;
 }
@@ -1037,7 +1037,7 @@ a {
 }
 
 .footer .copyright {
-  color: #127fbe;
+  color: #999;
   font-size: 15px;
   text-transform: capitalize;
   padding-top: 3px;
