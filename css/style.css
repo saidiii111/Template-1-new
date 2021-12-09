@@ -146,7 +146,7 @@ a {
 .section-header .section-title {
   font-size: 35px;
   text-transform: capitalize;
-  color: #fff;
+  color: rgb(4, 18, 41);
 }
 
 .section-header .line {
@@ -403,7 +403,7 @@ a {
 }
 
 .about-item-desc {
-  color: var(--grayColor);
+  color: var(--mainColor);
   line-height: 1.6;
   margin-bottom: 10px;
 }
