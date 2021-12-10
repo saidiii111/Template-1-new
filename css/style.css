@@ -163,7 +163,7 @@ a {
 .header {
   position: static;
   width: 100%;
-  background: rgba(0, 0, 0, 0.842);
+  background: rgba(40, 44, 46, 0.842);
 }
 
 /* Add a black background color to the top navigation */
@@ -183,7 +183,8 @@ a {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(192, 107, 10);
+  background-color: rgb(11, 81, 122);
+  border-radius: 9%;
   color: black;
 }
 
