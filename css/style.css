@@ -95,8 +95,6 @@
 .container {
   width: 80%;
   margin: auto;
-  display: flex;
-  flex-flow: row, wrap;
 }
 
 body {
@@ -104,8 +102,8 @@ body {
   box-sizing: border-box;
   background-image: linear-gradient(
     to top right,
-    rgb(5, 78, 3),
-    rgba(236, 238, 238, 0.5)
+    rgb(161, 133, 41),
+    rgb(62, 197, 57)
   );
 }
 
@@ -140,7 +138,6 @@ a {
 
 .section-header {
   text-align: center;
-  margin-bottom: 5px;
 }
 
 .section-header .section-title {
@@ -163,11 +160,11 @@ a {
 .header {
   position: static;
   width: 100%;
-  background: rgba(40, 44, 46, 0.842);
+  background: rgba(12, 160, 91, 0.842);
   background-image: linear-gradient(
     to top left,
-    rgb(188, 188, 194),
-    rgb(63, 218, 153)
+    rgb(197, 164, 57),
+    rgb(57, 197, 64)
   );
 }
 
@@ -181,21 +178,21 @@ a {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 3px 10px;
+  padding: 3px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(11, 81, 122);
+  background-color: rgb(197, 164, 57);
   border-radius: 9%;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: rgb(11, 81, 122);
+  background-color: rgb(197, 164, 57);
   border-radius: 9%;
   color: white;
 }
@@ -247,7 +244,6 @@ a {
   width: 30%;
   color: var(--mainColor);
   opacity: 0.3;
-  margin-top: 5px;
 }
 
 .develop {
@@ -263,14 +259,12 @@ a {
 .header .nav {
   width: 70%;
   list-style: none;
-  text-align: right;
-  display: flex;
-  flex-flow: row, wrap;
 }
 
 .header .nav li {
   display: inline-block;
   text-align: right;
+  margin-top: 22px;
 }
 
 .header .nav li a {
@@ -607,8 +601,10 @@ a {
 }
 
 .service-item-img img {
-  width: 100%;
+  width: 90%;
   margin-top: 90px;
+  margin-left: 22px;
+  margin-right: 11px;
 }
 
 .service-bollets {
@@ -1014,6 +1010,7 @@ a {
 
 .footer {
   background-image: url(../images/background/code.jpg);
+  height: 373px;
   background-size: cover;
   text-align: center;
 }
