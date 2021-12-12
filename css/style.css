@@ -104,8 +104,8 @@ body {
   box-sizing: border-box;
   background-image: linear-gradient(
     to top right,
-    rgb(11, 81, 244, 1),
-    rgb(11, 81, 244, 0.3)
+    rgb(5, 78, 3),
+    rgba(236, 238, 238, 0.5)
   );
 }
 
@@ -135,7 +135,7 @@ a {
 }
 
 .pd-y {
-  padding: 100px 0;
+  padding: 130px 22px;
 }
 
 .section-header {
@@ -1007,10 +1007,9 @@ a {
 }
 
 .footer {
+  background-image: url(../images/background/code.jpg);
+  background-size: cover;
   text-align: center;
-  padding: 20px 0;
-  display: flex;
-  flex-flow: row wrap;
 }
 
 .footer-links {
@@ -1038,11 +1037,10 @@ a {
 }
 
 .footer .copyright {
+  margin-left: 317px;
   color: #999;
   font-size: 15px;
   text-transform: capitalize;
-  padding-top: 3px;
-  flex: 1, 0, 40px;
 }
 
 .polling_message {
