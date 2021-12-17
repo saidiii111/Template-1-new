@@ -16,7 +16,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -33,20 +40,22 @@
 
                 </div>
                 <ul id="navv" class="nav topnav">
+                    <li><i class="flag flag-european-union"></i></li>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about" class="active">About</a></li>
                     <li><a href="#about">Resume</a></li>
                     <li><a href="#Testimonials">Testimonials</a></li>
                     <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#"> <select id="langselector" onchange="loadlang()">
-                                <option value="en">English</option>
-                                <option value="fr">Deutsch</option>
-                                <option value="fr">Arabic</option>
-                            </select></a></li>
-                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                        </a></li>
+                    <li><select name="" id="">
+                            <option value="" onclick="setLanguage('en')"> <i class="flag flag-european-union"></i>
+                            </option>
+                            <option value="" onclick="setLanguage('de')"> <i class="flag flag-germany"></i> </option>
+                        </select>
+
+
+                        <div id="div1"></div>
                 </ul>
+                <i class="flag flag-germany"></i>
             </div> <!--  ./header-content -->
         </div> <!--  ./container -->
     </section> <!--  ./header -->
@@ -220,8 +229,8 @@
 
     <!-- Offer Section-->
     <section id="services">
-        <div class="offer pd-y">
-            <div class="section-header mg-b-20">
+        <div class="offer">
+            <div class="section-header">
                 <h2 class="section-title">projects</h2>
                 <p>
                     it 'll be connected sonn as posible;
@@ -267,42 +276,42 @@
     </section>
 
     <!-- Services Section -->
-    <section class="service>
-        <div class=" container">
-        <div class="service-item service-list ">
-            <div class="section-header skill-mf mg-b-20">
-                <h2 class="section-title title-s">Skills</h2>
-                <span class="line"></span>
-            </div> <!-- ./section-header -->
+    <section class="service pd-y">
+        <div class="container">
+            <div class="service-item service-list ">
+                <div class="section-header skill-mf mg-b-20">
+                    <h2 class="section-title title-s">Skills</h2>
+                    <span class="line"></span>
+                </div> <!-- ./section-header -->
 
-            <ul class="service-list mg-b-20">
-                <div class="skill-mf mg-b-20"></div>
-                <h4>HTML</h4> <span class="pull-right"></span>
-                <div class="progress mg-b-20">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <h4 class="">CSS3</h4> <span class="pull-right"></span>
-                <div class="progress mg-b-20">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <h4>JAVASCRIPT</h4> <span class="pull-right"></span>
-                <div class="progress mg-b-20">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <h4>React.js</h4> <span class="pull-right"></span>
-                <div class="progress mg-b-20">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <h4>Node.js</h4> <span class="pull-right"></span>
-                <div class="progress mg-b-20">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="30"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-        </div>
+                <ul class="service-list mg-b-20">
+                    <div class="skill-mf mg-b-20"></div>
+                    <h4>HTML</h4> <span class="pull-right"></span>
+                    <div class="progress mg-b-20">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4 class="">CSS3</h4> <span class="pull-right"></span>
+                    <div class="progress mg-b-20">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4>JAVASCRIPT</h4> <span class="pull-right"></span>
+                    <div class="progress mg-b-20">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4>React.js</h4> <span class="pull-right"></span>
+                    <div class="progress mg-b-20">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 50%" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4>Node.js</h4> <span class="pull-right"></span>
+                    <div class="progress mg-b-20">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 30%" aria-valuenow="30"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+            </div>
         </div>
         </ul> <!-- ./service-list -->
         </div> <!-- ./service-item -->

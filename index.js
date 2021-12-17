@@ -8,19 +8,24 @@ function myFunction() {
   }
 }
 
-<script>
-function loadlang()
-  {
-  var lng = document.getElementById("langselector").value;
-  var cnt = document.getElementById("contents");
-  switch (lng)
-    {
-    case "en":
-      cnt.src = "https://jsfiddle.net/q2nw8o35/";
-    break;
-    case "fr":
-      cnt.src = "https://jsfiddle.net/jmn8c9tj/";
-    break;
-    }
-  }
-</script>
+var language;
+function getLanguage() {
+  localStorage.getItem("language") == null ? setLanguage("en") : false;
+  $.ajax({
+    url: "/language/" + localStorage.getItem("language") + ".json",
+    dataType: "json",
+    async: false,
+    dataType: "json",
+    success: function (lang) {
+      language = lang;
+    },
+  });
+}
+
+function setLanguage(lang) {
+  localStorage.setItem("language", lang);
+}
+
+$(document).ready(function () {
+  $("#div1").text(language.date);
+});

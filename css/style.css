@@ -24,8 +24,6 @@
 - hover effect 2 ( top to bottom)
 */
 
-
-
 .overlay {
   position: absolute;
   width: 100%;
@@ -104,8 +102,8 @@ body {
   box-sizing: border-box;
   background-image: linear-gradient(
     to top right,
-    rgb(161, 133, 41),
-    rgb(62, 197, 57)
+    rgb(57, 111, 197),
+    rgb(57, 197, 178)
   );
 }
 
@@ -162,11 +160,11 @@ a {
 .header {
   position: static;
   width: 100%;
-  background: rgba(12, 160, 91, 0.842);
+  background: rgba(12, 22, 160, 0.842);
   background-image: linear-gradient(
     to top left,
-    rgb(197, 164, 57),
-    rgb(57, 197, 64)
+    rgb(57, 111, 197),
+    rgb(57, 197, 178)
   );
 }
 
@@ -187,14 +185,14 @@ a {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(197, 164, 57);
+  background-color: rgb(39, 41, 158);
   border-radius: 9%;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: rgb(197, 164, 57);
+  background-color: rgb(39, 41, 158);
   border-radius: 9%;
   color: white;
 }
@@ -244,7 +242,7 @@ a {
 
 .header .logo .develop {
   width: 30%;
-  color: var(--mainColor);
+  color: rgba(12, 22, 160, 0.842);
   opacity: 0.3;
 }
 
@@ -1031,7 +1029,7 @@ a {
   display: block;
   width: 50px;
   height: 50px;
-  background: #009900;
+  background: rgba(12, 22, 160, 0.842);
   color: #fff;
   margin: 0 5px;
   border-radius: 50%;
