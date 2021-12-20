@@ -517,12 +517,15 @@ a {
 
 .offer-content {
   overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .offer-item {
+  justify-content: center;
   width: 30%;
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 29px;
   border: 1px solid #e8e8e8;
   padding: 30px 15px 30px 70px;
   position: relative;
@@ -568,11 +571,10 @@ a {
 }
 
 .service-item .section-header {
-  text-align: left;
 }
 
 .service-item .section-header .line {
-  margin: 0 0 30px 0;
+  margin: ;
 }
 
 .service-item-desc {
@@ -601,10 +603,8 @@ a {
 }
 
 .service-item-img img {
-  width: 90%;
-  margin-top: 90px;
-  margin-left: 22px;
-  margin-right: 11px;
+  width: 50%;
+  margin: 9em 2em 1em 8em;
 }
 
 .service-bollets {
