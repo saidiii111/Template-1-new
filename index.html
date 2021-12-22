@@ -24,6 +24,20 @@
         crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.nav li a').click(function (e) {
+
+                $('.nav li a').removeClass('active');
+
+                var $this = $(this);
+                if (!$this.hasClass('active')) {
+                    $this.addClass('active');
+                }
+                e.preventDefault();
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -40,20 +54,20 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about" class="active">About</a></li>
                     <li><a href="#about">Resume</a></li>
-                    <li><a href="#Testimonials">Testimonials</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#service">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li>
                         <select name="" id="">
-                            <option value="">EN</option>
-                            <option value="">DE</option>
+                            <option value="🇪🇺">🇪🇺</option>
+                            <option value="#127463"><i></i></option>
                             <option value="">AR</option>
                         </select>
                     </li>
                 </ul>
-
             </div> <!--  ./header-content -->
         </div> <!--  ./container -->
     </section> <!--  ./header -->
+
     <!-- <li class="dropdown">
                     <a href="#">Blog</a>
                     <ul class="dropdown-menu">
@@ -126,6 +140,7 @@
                     <h2 class="about-item-title">2000 - 2005</h2>
                     <p class="about-item-desc"><strong>Electron and Cisco Network</strong><br> CCNA, CCNP</p>
                     <a class="about-item-link" href="#">read more</a>
+
                 </div>
                 <div class="about-item tb-effect mg">
                     <i class="icon fa fa-graduation-cap fa-2x"></i>
@@ -157,7 +172,7 @@
                     <div class="layer-content">
                         <div class="layer-info">
                             <span class="category">category</span>
-                            <h3 class="layer-content-title">Lorem, ipsum dolor.</h3>
+                            <h3 class="layer-content-title">Html Html5</h3>
                             <a href=""> <i class="fa fa-edit fa-lg"></i></a>
                             <a href=""><i class="fa fa-search fa-lg"></i></a>
                         </div>
@@ -168,7 +183,7 @@
                     <div class="layer-content">
                         <div class="layer-info">
                             <span class="category">category</span>
-                            <h3 class="layer-content-title">Lorem, ipsum dolor.</h3>
+                            <h3 class="layer-content-title">Css Sass Bootstrap</h3>
                             <a href=""> <i class="fa fa-edit fa-lg"></i></a>
                             <a href=""><i class="fa fa-search fa-lg"></i></a>
                         </div>
@@ -179,7 +194,7 @@
                     <div class="layer-content">
                         <div class="layer-info">
                             <span class="category">category</span>
-                            <h3 class="layer-content-title">Lorem, ipsum dolor.</h3>
+                            <h3 class="layer-content-title">Javascript ES6</h3>
                             <a href=""> <i class="fa fa-edit fa-lg"></i></a>
                             <a href=""><i class="fa fa-search fa-lg"></i></a>
                         </div>
@@ -190,7 +205,7 @@
                     <div class="layer-content">
                         <div class="layer-info">
                             <span class="category">category</span>
-                            <h3 class="layer-content-title">Lorem, ipsum dolor.</h3>
+                            <h3 class="layer-content-title">React-Angular-Veu.js</h3>
                             <a href=""> <i class="fa fa-edit fa-lg"></i></a>
                             <a href=""><i class="fa fa-search fa-lg"></i></a>
                         </div>
@@ -201,7 +216,7 @@
                     <div class="layer-content">
                         <div class="layer-info">
                             <span class="category">category</span>
-                            <h3 class="layer-content-title">Lorem, ipsum dolor.</h3>
+                            <h3 class="layer-content-title">Ionic-mobile App</h3>
                             <a href=""> <i class="fa fa-edit fa-lg"></i></a>
                             <a href=""><i class="fa fa-search fa-lg"></i></a>
                         </div>
@@ -212,7 +227,7 @@
                     <div class="layer-content">
                         <div class="layer-info">
                             <span class="category">category</span>
-                            <h3 class="layer-content-title">Lorem, ipsum dolor.</h3>
+                            <h3 class="layer-content-title">PHP Node.js MySql</h3>
                             <a href=""> <i class="fa fa-edit fa-lg"></i></a>
                             <a href=""><i class="fa fa-search fa-lg"></i></a>
                         </div>
@@ -274,7 +289,7 @@
     <section class="service pd-y">
         <div class="container">
             <div class="service-item service-list ">
-                <div class="section-header skill-mf mg-b-20">
+                <div id="service" class="section-header skill-mf mg-b-20">
                     <h2 class="section-title title-s">Skills</h2>
                     <span class="line"></span>
                 </div> <!-- ./section-header -->

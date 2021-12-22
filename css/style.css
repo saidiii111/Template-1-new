@@ -242,12 +242,12 @@ a {
 
 .header .logo .develop {
   width: 30%;
-  color: rgba(12, 22, 160, 0.842);
+  color: rgb(39, 41, 158);
   opacity: 0.3;
 }
 
 .develop {
-  -webkit-animation: mymove 10s infinite;
+  -webkit-animation: mymove 7s infinite;
 }
 
 @keyframes mymove {
@@ -569,13 +569,12 @@ a {
   width: 50%;
   float: left;
 }
-
+/*
 .service-item .section-header {
 }
-
 .service-item .section-header .line {
-  margin: ;
-}
+  ma;rgin: 
+}*/
 
 .service-item-desc {
   padding-right: 20px;
@@ -1060,7 +1059,7 @@ a {
 }
 
 .cylon_eye {
-  background-color: red;
+  background-color: rgba(12, 22, 160, 0.842);
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.9) 25%,
