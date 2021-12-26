@@ -9,10 +9,9 @@ function myFunction() {
 }
 
 function getFlagEmoji(countryCode) {
-  return countryCode.toUpperCase()
-                    .replace(/./g, char => 
-      String.fromCodePoint(127397 + char.charCodeAt())
-  );
+  return countryCode
+    .toUpperCase()
+    .replace(/./g, (char) => String.fromCodePoint(127397 + char.charCodeAt()));
 }
 
 var language;

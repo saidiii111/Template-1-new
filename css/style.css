@@ -133,7 +133,7 @@ a {
 }
 
 .pd-y {
-  padding: 122px 22px;
+  padding: 5em 3em;
 }
 
 .section-header {
@@ -141,17 +141,17 @@ a {
 }
 
 .section-header .section-title {
-  font-size: 35px;
+  font-size: 2.5em;
   text-transform: capitalize;
   color: rgb(4, 18, 41);
 }
 
 .section-header .line {
   display: block;
-  height: 5px;
-  width: 60px;
-  margin: 4px auto 70px auto;
-  background-color: var(--mainColor);
+  height: 0.3em;
+  width: 6em;
+  margin: 0.5em auto;
+  background-color: rgb(4, 18, 41);
 }
 
 /* 3- Sections Styles */
@@ -178,9 +178,9 @@ a {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 3px 16px;
+  padding: 0.3em 1em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 4em;
 }
 
 /* Change the color of links on hover */
@@ -264,16 +264,16 @@ a {
 .header .nav li {
   display: inline-block;
   text-align: right;
-  margin-top: 22px;
+  margin-top: 1.5em;
 }
 
 .header .nav li a {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--whiteColor);
   text-decoration: none;
   display: block;
-  padding: 10px auto;
+  padding: 2em auto;
 }
 
 .header .nav > li > a.active:after {
@@ -343,7 +343,7 @@ a {
 }
 
 .home-desc {
-  margin: 20px auto;
+  margin: 2% auto;
   color: var(--whiteColor);
   letter-spacing: 2px;
   line-height: 1.5;
@@ -379,7 +379,7 @@ a {
   float: left;
   text-align: center;
   border: 1px solid #e8e8e8;
-  padding: 50px 20px;
+  padding: 4% 5%;
 }
 
 .about-item:hover .about-item-title {
