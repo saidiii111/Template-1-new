@@ -101,9 +101,9 @@ body {
   font-family: "Varela Round", sans-serif;
   box-sizing: border-box;
   background-image: linear-gradient(
-    to top right,
+    to bottom right,
     rgb(57, 111, 197),
-    rgb(57, 197, 178)
+    rgb(178, 31, 204)
   );
 }
 
@@ -133,7 +133,7 @@ a {
 }
 
 .pd-y {
-  padding: 5em 3em;
+  padding: 112px 93px;
 }
 
 .section-header {
@@ -143,7 +143,7 @@ a {
 .section-header .section-title {
   font-size: 2.5em;
   text-transform: capitalize;
-  color: rgb(4, 18, 41);
+  color: #fff;
 }
 
 .section-header .line {
@@ -151,7 +151,7 @@ a {
   height: 0.3em;
   width: 6em;
   margin: 0.5em auto;
-  background-color: rgb(4, 18, 41);
+  background-color: var(--grayColor);
 }
 
 /* 3- Sections Styles */
@@ -160,11 +160,10 @@ a {
 .header {
   position: static;
   width: 100%;
-  background: rgba(12, 22, 160, 0.842);
   background-image: linear-gradient(
     to top left,
     rgb(57, 111, 197),
-    rgb(57, 197, 178)
+    rgb(178, 31, 204)
   );
 }
 
@@ -235,15 +234,15 @@ a {
   overflow: hidden;
 }
 
-.header .logo {
+.logo {
   width: 30%;
   float: left;
 }
 
-.header .logo .develop {
+.develop {
   width: 30%;
-  color: rgb(39, 41, 158);
-  opacity: 0.3;
+  color: #fff;
+  opacity: 0.7;
 }
 
 .develop {
@@ -1028,8 +1027,8 @@ a {
   display: block;
   width: 50px;
   height: 50px;
-  background: rgba(12, 22, 160, 0.842);
-  color: #fff;
+  background-image: linear-gradient(to top left, #fff, rgb(153, 26, 192));
+  color: blue;
   margin: 0 5px;
   border-radius: 50%;
 }
@@ -1040,7 +1039,7 @@ a {
 
 .footer .copyright {
   margin-left: 317px;
-  color: #999;
+  color: #fff;
   font-size: 15px;
   text-transform: capitalize;
 }
@@ -1059,7 +1058,7 @@ a {
 }
 
 .cylon_eye {
-  background-color: rgba(12, 22, 160, 0.842);
+  background-color: rgba(228, 19, 19, 0.986);
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.9) 25%,
