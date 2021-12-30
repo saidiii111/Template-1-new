@@ -288,9 +288,9 @@
     </section>
 
     <!-- Services Section -->
-    <section class="service pd-y">
-        <div class="container">
-            <div class="service-item service-list row">
+    <section class="service container pd-y">
+        <div class="d-flex">
+            <div class="service-item service-list col-sm-12">
                 <div id="service" class="section-header skill-mf mg-b-20">
                     <h2 class="section-title title-s">Skills</h2>
                     <span class="line"></span>
@@ -327,18 +327,23 @@
         </div>
         </ul> <!-- ./service-list -->
         </div> <!-- ./service-item -->
-        <div class="service-item">
-            <div class="service-item-img">
-                <img src="images/team/bewer2.jpg" alt="code">
+        <div class="container">
+            <div class="service-item col-sm-12">
+                <div class="service-item-img  d-flex">
+                    <img src="images/team/bewer2.jpg" alt="code">
+                </div>
+                <ul class="service-bollets">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
-            <ul class="service-bollets">
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-            </ul>
         </div>
-        <div class="clear"></div>
-        </div> <!-- ./container -->
+    </section>
+
+
+    <div class="clear"></div>
+    </div> <!-- ./container -->
     </section> <!-- ./service -->
 
     <!-- Numbers Section 
@@ -594,23 +599,23 @@
     </div>  -->
 
     <section id="contact" class="contact pd-y getintouch">
-        <div class="section-header mg-b-20 ">
+        <div class="section-header mg-b-20">
             <h2 class="section-title mg-b-10">Hello</h2>
             <span class="line"></span>
         </div>
         <div class="container">
             <div class="getintouch-items row">
-                <div class="item col-md-6 col-lg-4 col-xl-3 col-xs-12 col-sm-9">
-                    <i class="fa fa-phone fa-2x "></i>
+                <div class="item d-sm-flex">
+                    <i class="fa fa-phone fa-2x"></i>
                     <h3 class="item-title">Phone</h3>
                     <span class="item-text">0176 4102 1331</span>
                 </div>
-                <div class="item mg col-md-6 col-lg-4 col-xl-3 col-xs-12 col-sm-9">
+                <div class="item mg d-sm-flex">
                     <i class="fa fa-envelope fa-2x"></i>
                     <h3 class="item-title">Email</h3>
                     <span class="item-text">alsaghir.said@gmail.com</span>
                 </div>
-                <div class="item col-md-6 col-lg-4 col-xl-3 col-xs-12 col-sm-9">
+                <div class="item d-sm-flex">
                     <i class="fa fa-map-marker fa-2x"></i>
                     <h3 class="item-title">Address</h3>
                     <span class="item-text">Germany Thüringen<br>98617 Meiningen</span>
@@ -629,11 +634,11 @@
     </section>
 
     <!-- Footer Section -->
-    <section class="footer footerr>
+    <section class="footer footerr d-flex>
          <div class= " logo">
         <i class="fa fa-5x fa-code develop" aria-hidden="true"></i>
         </div>
-        <ul class="footer-links">
+        <ul class="footer-links d-sm-flex">
             <li><a target="_blank" href="https://www.linkedin.com/in/said-saghir" class="hover-opacity ltr-effect"><i
                         class="fa fa-linkedin"></i></a></li>
             <li><a target="_blank" href="#" class="hover-opacity"><i class="fa fa-youtube"></i></a></li>
@@ -643,7 +648,7 @@
             <li><a target="_blank" href="#" class="hover-opacity"><i class="fa fa-facebook"></i></a></li>
             <li><a target="_blank" href="#" class="hover-opacity"><i class="fa fa-google-plus"></i></a></li>
         </ul>
-        <div class="view_port">
+        <div class="view_port d-sm-flex d-flex">
             <div class="polling_message">
                 <p class="copyright">&copy; 2021 made with &hearts; by Said Saghir</p>
             </div>

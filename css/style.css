@@ -143,7 +143,7 @@ a {
 .section-header .section-title {
   font-size: 2.5em;
   text-transform: capitalize;
-  color: #fff;
+  color: rgb(29, 11, 258);
 }
 
 .section-header .line {
@@ -151,7 +151,7 @@ a {
   height: 0.3em;
   width: 6em;
   margin: 0.5em auto;
-  background-color: var(--grayColor);
+  background-color: rgb(39, 41, 158);
 }
 
 /* 3- Sections Styles */
@@ -601,8 +601,9 @@ a {
 }
 
 .service-item-img img {
-  width: 50%;
-  margin: 9em 2em 1em 8em;
+  width: 60%;
+  margin: 1em auto;
+  border-radius: 60%;
 }
 
 .service-bollets {
@@ -932,7 +933,6 @@ a {
 }
 
 .getintouch-items .item {
-  width: 30%;
   float: left;
   text-align: center;
 }
@@ -1038,7 +1038,7 @@ a {
 }
 
 .footer .copyright {
-  margin-left: 317px;
+  margin: 1% auto;
   color: #fff;
   font-size: 15px;
   text-transform: capitalize;
@@ -1047,7 +1047,6 @@ a {
 .polling_message {
   color: white;
   float: left;
-  margin-right: 2%;
 }
 
 .view_port {
