@@ -57,11 +57,11 @@
                     <li><a href="#service">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li>
-                        <select name="" id="">
+                        <select name="" id="navv">
                             <option>
                                 <script>getFlagEmoji('US') = 'US'</script>
                             </option>
-                            <option value=""></option>
+                            <option value="">DE</option>
                             <option value="">AR</option>
                         </select>
                     </li>
@@ -250,7 +250,7 @@
                 <span class="line"></span>
             </div> <!-- ./section-header -->
             <div class="container">
-                <div class="offer-content row">
+                <div class="offer-content row d-sm-flex">
                     <div class="offer-item ltr-effect col-md-6 col-lg-4 col-xl-3 col-xs-12 col-sm-9">
                         <i class="icon fa fa-diamond fa-2x"></i>
                         <h2 class="offer-item-title">app development</h2>
@@ -289,7 +289,7 @@
 
     <!-- Services Section -->
     <section class="service container pd-y">
-        <div class="d-flex">
+        <div class="d-sm-flex">
             <div class="service-item service-list">
                 <div id="service" class="section-header skill-mf mg-b-20">
                     <h2 class="section-title title-s">Skills</h2>
@@ -324,20 +324,19 @@
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
             </div>
-            <div class="service-item p-4 m-5">
-                <div class="service-item-img d-sm-flex">
-                    <img src="images/team/bewer2.jpg" alt="code">
-                </div>
-                <ul class="service-bollets">
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
         </div>
         </ul> <!-- ./service-list -->
         </div> <!-- ./service-item -->
-
+        <div class="service-item p-4 m-5 d-sm-flex">
+            <div class="service-item-img">
+                <img src="images/team/bewer2.jpg" alt="code">
+            </div>
+            <ul class="service-bollets">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
 
     </section>
 
@@ -604,18 +603,18 @@
             <span class="line"></span>
         </div>
         <div class="container">
-            <div class="getintouch-items row">
-                <div class="item d-sm-flex">
+            <div class="getintouch-items row d-flex align-items-center justify-content-center">
+                <div class="item col">
                     <i class="fa fa-phone fa-2x"></i>
                     <h3 class="item-title">Phone</h3>
                     <span class="item-text">0176 4102 1331</span>
                 </div>
-                <div class="item mg d-sm-flex">
+                <div class="item col">
                     <i class="fa fa-envelope fa-2x"></i>
                     <h3 class="item-title">Email</h3>
                     <span class="item-text">alsaghir.said@gmail.com</span>
                 </div>
-                <div class="item d-sm-flex">
+                <div class="item col">
                     <i class="fa fa-map-marker fa-2x"></i>
                     <h3 class="item-title">Address</h3>
                     <span class="item-text">Germany Thüringen<br>98617 Meiningen</span>
@@ -635,7 +634,7 @@
 
     <!-- Footer Section -->
     <section class="footer footerr d-flex>
-         <div class= " logo">
+         <div class= " logo justify-content-center align-items-center">
         <i class="fa fa-5x fa-code develop" aria-hidden="true"></i>
         </div>
         <ul class="footer-links d-sm-flex">
@@ -648,9 +647,10 @@
             <li><a target="_blank" href="#" class="hover-opacity"><i class="fa fa-facebook"></i></a></li>
             <li><a target="_blank" href="#" class="hover-opacity"><i class="fa fa-google-plus"></i></a></li>
         </ul>
-        <div class="view_port d-sm-flex d-flex">
+        <div class="view_port justify-content-center align-items-center px-2">
             <div class="polling_message">
-                <p class="copyright">&copy; 2021 made with &hearts; by Said Saghir</p>
+                <p class="copyright lead">&copy; 2022 made with <span class="text-danger">&hearts;</span> by Said Saghir
+                </p>
             </div>
             <div class="cylon_eye"></div>
         </div>
