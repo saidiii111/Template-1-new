@@ -1038,10 +1038,10 @@ a {
 }
 
 .footer .copyright {
-  margin: 1% auto;
   color: #fff;
   font-size: 15px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .polling_message {

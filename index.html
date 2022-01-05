@@ -18,12 +18,15 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="//mojoaxel.github.io/bootstrap-select-country/dist/css/bootstrap-select-country.min.css">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//mojoaxel.github.io/bootstrap-select-country/dist/js/bootstrap-select-country.min.js"></script>
     <script>
         $(document).ready(function () {
             $('.nav li a').click(function (e) {
@@ -47,24 +50,18 @@
             <div class="header-content">
                 <!--  other way to solve the float proplem -->
                 <div class="logo">
-                    <i class="fa fa-5x fa-code develop" aria-hidden="true"></i>
+                    <a href="#footer">
+                        <i class="fa fa-5x fa-code develop" aria-hidden="true">
+                        </i>
+                    </a>
                 </div>
 
                 <ul id="navv" class="nav topnav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about" class="active">About</a></li>
-                    <li><a href="#about">Resume</a></li>
+                    <li><a href="#resume">Resume</a></li>
                     <li><a href="#service">Testimonials</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li>
-                        <select name="" id="navv">
-                            <option>
-                                <script>getFlagEmoji('US') = 'US'</script>
-                            </option>
-                            <option value="">DE</option>
-                            <option value="">AR</option>
-                        </select>
-                    </li>
+                    <li><a href="#contac">Contact</a></li>
                 </ul>
             </div> <!--  ./header-content -->
         </div> <!--  ./container -->
@@ -82,9 +79,9 @@
 
     <section id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active bg-dark"></li>
+            <li class="bg-dark" data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li class="bg-dark" data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -110,12 +107,12 @@
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="sr-only bg-dark">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="sr-only bg-dark">Next</span>
         </button>
     </section> <!-- ./home -->
 
@@ -162,7 +159,7 @@
     </section> <!-- ./about -->
 
     <!-- Portfolio Section -->
-    <div class="portfolio pd-y">
+    <div id="resume" class="portfolio pd-y">
         <div class="section-header">
             <h2 class="section-title">featured works</h2>
             <span class="line"></span>
@@ -240,7 +237,7 @@
     </div>
 
     <!-- Offer Section-->
-    <section id="services ">
+    <section id="services">
         <div class="offer">
             <div class="section-header">
                 <h2 class="section-title">projects</h2>
@@ -597,7 +594,7 @@
         </div> 
     </div>  -->
 
-    <section id="contact" class="contact pd-y getintouch">
+    <section id="contac" class="contact pd-y getintouch">
         <div class="section-header mg-b-20">
             <h2 class="section-title mg-b-10">Hello</h2>
             <span class="line"></span>
@@ -633,9 +630,12 @@
     </section>
 
     <!-- Footer Section -->
-    <section class="footer footerr d-flex>
-         <div class= " logo justify-content-center align-items-center">
-        <i class="fa fa-5x fa-code develop" aria-hidden="true"></i>
+    <section id="footer" class="footer footerr d-flex">
+        <div class="logo">
+            <a href="#navv" class="mx-5">
+                <i class="fa fa-5x fa-code develop" aria-hidden="true">
+                </i>
+            </a>
         </div>
         <ul class="footer-links d-sm-flex">
             <li><a target="_blank" href="https://www.linkedin.com/in/said-saghir" class="hover-opacity ltr-effect"><i
@@ -647,9 +647,10 @@
             <li><a target="_blank" href="#" class="hover-opacity"><i class="fa fa-facebook"></i></a></li>
             <li><a target="_blank" href="#" class="hover-opacity"><i class="fa fa-google-plus"></i></a></li>
         </ul>
-        <div class="view_port justify-content-center align-items-center px-2">
-            <div class="polling_message">
-                <p class="copyright lead">&copy; 2022 made with <span class="text-danger">&hearts;</span> by Said Saghir
+        <div class="view_port">
+            <div class="polling_message d-sm-flex row">
+                <p class="copyright lead mx-5">&copy; 2022 made with <span class="text-danger">&hearts;</span> by Said
+                    Saghir
                 </p>
             </div>
             <div class="cylon_eye"></div>
